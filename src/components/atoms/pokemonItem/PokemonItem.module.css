@@ -1,0 +1,22 @@
+.inputs {
+    padding:0 10px;
+     display: flex;
+     gap: 15px;
+}
+.inputs button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    transition: ease all .3s;      
+}
+.inputs button:hover{
+    cursor: pointer;
+    transform:scale(1.1);
+}
+.row th{
+    font-weight:100;
+}
+.row img{
+    max-width: 10vw;
+    border-radius: 3px;
+}

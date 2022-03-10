@@ -1,0 +1,23 @@
+.search{
+    width: fit-content;
+    font-size: small;
+    padding-bottom: 5%;
+    
+    
+}
+.search input {
+    border: 2px solid gray;
+    border-radius: 2px;
+    padding:  3%;
+}
+.search input::placeholder{
+    font-weight: 600;
+    color:rgba(128, 128, 128, 0.589);
+}
+.search input::focus{
+    border: 2px solid gray;
+}
+.search h2{
+    font-weight: 600;
+    width: fit-content;
+}
